@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'policeTitle';
+    src: url('font/policetitle.ttf');
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('font/bebas.ttf');
+}
+
+header {
+	width: 100%;
+	height: auto;
+	background-color: #E57A44;
+}
+body {
+	margin: 0;
+	background: url('bck.png');
+	background-size: 1000px 1000px;
+	top: 0;
+}
+.headerTitle {
+	width: 50%;
+	border: none;
+	margin: auto;
+	text-align: center;
+}
+.title {
+	color: white;
+	font-size: 50px;
+	font-family: policeTitle;
+	margin-left: 10px;
+}
+.logo:hover {
+	cursor: pointer;
+	filter: brightness(70%);
+	-webkit-filter: brightness(70%);
+}
+.navigation {
+	width: 100%;
+	height: auto;
+	background-color: #E3D985;
+}
+.menu {
+	color: white;
+	font-family: Bebas;
+	text-decoration: none;
+	font-size: 25px;
+	text-align: center;
+}
+#menu {
+	margin-right: 15px;
+	margin-left: 15px;
+
+}
+#menu:hover {
+	filter: brightness(90%);
+	-webkit-filter: brightness(90%);
+}
+#menu:active {
+	filter: brightness(90%);
+	-webkit-filter: brightness(90%);
+}
+.presZ{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.titleP {
+	color: #E57A44;
+	font-family: PoliceTitle;
+	letter-spacing: 3px;
+}
+.competence {
+	width: 100%;
+	color: white;
+	height: auto;
+	background-color: black	;
+	text-align: center;
+}
+.titleC {
+	color: white;
+	font-family: PoliceTitle;
+	letter-spacing: 3px;
+}
+.exterior {
+	width: 400px;
+	height: 30px;
+	background-color: white;
+	margin-top: 5px;
+}
+.interior {
+	height: 100%;
+	background-color: #E34C00;
+}
+.progressBarDiv {
+	width: 400px;
+	margin: auto;
+	margin-bottom: 15px;
+	font-family: Arial;
+	letter-spacing: 2px;
+	color: white;
+	font-weight: bold;
+}
+.tarifs {
+	width: 100%;
+	color: #E57A44;
+	height: auto;
+	background-color: none;
+	text-align: center;
+}
+.titleT {
+	font-family: PoliceTitle;
+	letter-spacing: 3px;
+}
+.cadreoffre {
+	background-color: #E57A44;
+	width: 300px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: inline-block;
+}
+.cadreoffre:hover {
+	filter: brightness(95%);
+	-webkit-filter: brightness(95%);
+	transform: translateY(-4px);
+	transition: 0.0s all linear 0s;
+}
+.creation {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	background-color: #E57A44;
+	padding-bottom: 30px;
+}
+.creationex {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+	width: 400px;
+	height: 200px;
+	background-color: none;
+	display: inline-block;
+}
+.creationex:hover {
+	filter: brightness(95%);
+	-webkit-filter: brightness(95%);
+	transform: translateY(-4px);
+	transition: 0.0s all linear 0s;
+}
+.contact{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.discordl:hover {
+	transform: rotate(360deg);
+	cursor: pointer;
+	transition: 0.2s all linear 0s;
+}
+.maillogo:hover {
+	transform: rotate(360deg);
+	cursor: pointer;
+	transition: 0.2s all linear 0s;
+}
+footer{
+	width: 100%;
+	height: auto;
+	color: white;
+	background-color: #e57A44;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+}
+.footertext{
+	width: 100%;
+	border: none;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
